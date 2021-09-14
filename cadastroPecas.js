@@ -26,7 +26,7 @@ for(let x = 0; x < qtd.length; x++) {
         console.log("Cadastro não Permitido! Quantidade de peças não pode ser maior que 10.");
     } else {
         //verifica peso
-        if (atual.peso.toFixed() > 100) {
+        if (atual.peso > 100) {
             //verifica quant. caracteres
             if (atual.nome.length > 3) {
                 console.log("Cadastro Permitido. Codigo: " + x + ", Peça: " + atual.nome + " Peso: " + atual.peso + " gramas");
